@@ -1,0 +1,33 @@
+#menu{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #1877F2;
+    color: #fff;
+    padding: 2vw;
+    font-weight: 900;
+}
+#modal{
+    width: 30%;
+}
+#modal span{
+    float: right;
+}
+#modal button{
+    margin-top: 2vw;
+    border: none;
+    border-radius:5px;
+    padding: 1vw;
+    background-color: rgb(64, 64, 64);
+    color: #fff;
+    font-weight: 900;
+}
+
+@media (max-width: 450px){
+    #modal{
+        width: 70%;
+    }
+}

@@ -1,0 +1,77 @@
+#login{
+    text-align: left;
+    min-height: 100vh;
+    background-color: #F0F2F5;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap:5vw;
+    padding-top: 15%;
+}
+#text{
+    padding-left: 2vw;
+}
+#text h1{
+    color: #1877F2;
+    font-weight: 900;
+}
+#text h3{
+    font-weight: 300;
+}
+#content{
+    
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+#content form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding:2vw;
+    /* border: 1px solid; */
+    border-radius: 5px;
+}
+#content form input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
+    display: block;
+    width:90%;
+    height:6vh;
+    border-radius: 5px;
+    border:grey solid 1px;
+}
+#content form button{
+    border-radius: 5px;
+    border:none;
+    color: #FFFFFF;
+    font-weight:700;
+    font-size: x-large;
+    padding: 0.5vw;
+    background-color: #1877F2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
+    display: block;
+    width:92%;
+    height:8vh;
+    cursor: pointer;
+}
+#content #changePage{
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #42B72A;
+    border:none;
+    padding: 1vw;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: larger;
+}
+
+@media screen and (max-width:450px) {
+    #login{
+        grid-template-columns: 1fr;
+    }
+}

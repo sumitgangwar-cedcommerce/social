@@ -1,0 +1,90 @@
+#AddFeed{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:white;
+    padding:2vw;
+    padding-right: 4vw;
+    border-radius:5px;
+    margin-top:1vw;
+}
+
+#AddFeed p span{
+    border-radius: 50%;
+    padding:1vw;
+    background-color:#1877F2;
+}
+#AddFeed p input{
+    border-radius: 10px;
+    padding:1vw;
+    background-color:#c1c1c1;
+    width: 70%;
+    border:none;
+    outline: none;
+}
+#AddFeed div{
+    /* border:solid 1px; */
+
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fa-music{
+    color:#ca18f2
+}
+.fa-photo-film{
+    color:green;
+}
+.fa-video{
+    color:red;
+}
+#modal-body span{
+    background-color: #1877F2;
+    padding:1vw;
+    border-radius:50%;
+    color:aliceblue;
+}
+#modal-body #post{
+    margin: 1vw;
+    background-color: #1877F2;
+    color: white;
+    padding: 1vw;
+    border: none;
+    border-radius: 5px;
+}
+#modal-body #cancel{
+    margin: 1vw;
+    background-color: #9a9a9a;
+    color: black;
+    padding: 1vw;
+    border: none;
+    border-radius: 5px;
+}
+#modal-textarea{
+    margin-top: 2vw;
+    width: 100%;
+    /* height: 8vw; */
+}
+#modal-body{
+    width: 40%;
+}
+
+@media screen and (max-width:500px) {
+    #AddFeed{
+        width: 100%;
+    }
+    #AddFeed div{
+        width:90%;
+    }
+    #modal-body{
+        width: 90%;
+    }
+    #modal-body form{
+        width:100%;
+        
+    }
+}
